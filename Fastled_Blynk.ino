@@ -1,5 +1,5 @@
 /*************************************************************
-Support by guagua
+ 一个送给妹子的礼物
  注意:带*的位置，必须修改为你自己的参数。
  资料来源于:https://www.makeuseof.com/tag/computer-lighting-nodemcu-wifi/
  blynk:https://www.blynk.cc
@@ -34,10 +34,10 @@ int autoMode = 1;
 uint8_t gHue = 0; 
 
 //---WIFI设置和BLYNK服务器和验证码---
-char auth[] = "a864011d64f3464b8738a84a1c5bbe9d";//* blynk验证码，在blynk APP中获取
-char ssid[] = "HIWIFI-502"; //* 你家WIFI的名称
-char pass[] = "9b9s9dmg"; //* 你家WIFI密码
-char server[] = "cceaglobal.com";  //BLYNK服务器地址，请勿修改，除非你有自己的BLYNK服务器
+char auth[] = "";//* blynk验证码，在blynk APP中获取
+char ssid[] = ""; //* 你家WIFI的名称
+char pass[] = ""; //* 你家WIFI密码
+char server[] = "smartled.cc";  //BLYNK服务器地址，请勿修改，除非你有自己的BLYNK服务器
 int port = 8080; //ESP8266连接BLYNK服务器端口，请勿修改
 
 void setup() {
